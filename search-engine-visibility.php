@@ -46,6 +46,6 @@ function seo_css() {
 	}
 }
 
-add_action( 'admin_head', 'seo_css' );
+add_action( 'admin_notices', 'seo_css' );
 
 ?>
